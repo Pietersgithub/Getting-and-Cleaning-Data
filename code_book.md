@@ -12,14 +12,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The naming convention for the data variables follows the industry standard Google style guide. In particular a period, ., is used to separate name components. 
 To prevent the variable names from becoming too long the following abbreviations are incorporated into the names.
 abbreviation	full name
-t	            time domain
-f	            frequency domain
-body	        body fixed reference frame
-gravity	      Earth fixed reference frame
-acc	          accelerometer reading
-gyro	        Gyroscope reading
-mag	          Euclidean magnitude
-std	          Standard Deviation
+t		time domain
+		frequency domain
+body		body fixed reference frame
+gravity		Earth fixed reference frame
+acc		accelerometer reading
+gyro		Gyroscope reading
+mag		Euclidean magnitude
+std		Standard Deviation
 
 NOTE: As usual, features for machine learning algorithms are dimensionless and normalized to the range [-1,1].
 Identifiers
