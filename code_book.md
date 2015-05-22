@@ -14,12 +14,12 @@ To prevent the variable names from becoming too long the following abbreviations
 abbreviation	full name
 t	            time domain
 f	            frequency domain
-body	       body fixed reference frame
-gravity	     Earth fixed reference frame
-acc	         accelerometer reading
-gyro	       Gyroscope reading
-mag	         Euclidean magnitude
-std	         Standard Deviation
+body	        body fixed reference frame
+gravity	      Earth fixed reference frame
+acc	          accelerometer reading
+gyro	        Gyroscope reading
+mag	          Euclidean magnitude
+std	          Standard Deviation
 
 NOTE: As usual, features for machine learning algorithms are dimensionless and normalized to the range [-1,1].
 Identifiers
