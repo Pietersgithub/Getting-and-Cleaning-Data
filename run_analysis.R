@@ -48,4 +48,4 @@ rm(DF_Mean_StDev, HARUS)
 ## Create an independent tidy data set with the average of each variable for each activity and each subject from the data set.
 DF_avg <- melt( Result, c("subject","activity") )
 tidy.DF_avg <- dcast( DF_avg, ... ~ variable, mean )
-write.table( tidy.DF_avg, "C:\\Users\\Pieter\\Documents\\Coursera\\Data\\Peer_assignment\\run_analysis.R.txt", row.names = F )
+write.table( tidy.DF_avg, "C:\\Users\\Pieter\\Documents\\Coursera\\Data\\Peer_assignment\\averages.txt", row.names = F )
